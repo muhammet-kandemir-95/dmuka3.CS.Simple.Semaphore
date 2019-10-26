@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>dmuka3.CS.Simple.Semaphore</name>
+    </assembly>
+    <members>
+        <member name="P:dmuka3.CS.Simple.Semaphore.ActionQueue.CoreCount">
+            <summary>
+            Thread count
+            </summary>
+        </member>
+        <member name="F:dmuka3.CS.Simple.Semaphore.ActionQueue._actions">
+            <summary>
+            Queue of action
+            </summary>
+        </member>
+        <member name="P:dmuka3.CS.Simple.Semaphore.ActionQueue.Disposed">
+            <summary>
+            Was class dispose?
+            </summary>
+        </member>
+        <member name="P:dmuka3.CS.Simple.Semaphore.ActionQueue.Started">
+            <summary>
+            Was queue start?
+            </summary>
+        </member>
+        <member name="F:dmuka3.CS.Simple.Semaphore.ActionQueue._threads">
+            <summary>
+            Thread's list. This list count is core count.
+            </summary>
+        </member>
+        <member name="M:dmuka3.CS.Simple.Semaphore.ActionQueue.runAction">
+            <summary>
+            This function each action on queue
+            </summary>
+        </member>
+        <member name="M:dmuka3.CS.Simple.Semaphore.ActionQueue.Start">
+            <summary>
+            Run all cores(Threads)
+            </summary>
+        </member>
+        <member name="M:dmuka3.CS.Simple.Semaphore.ActionQueue.AddAction(System.Action)">
+            <summary>
+            This function is for add new action to queue.
+            </summary>
+            <param name="action">Sync Action</param>
+        </member>
+    </members>
+</doc>

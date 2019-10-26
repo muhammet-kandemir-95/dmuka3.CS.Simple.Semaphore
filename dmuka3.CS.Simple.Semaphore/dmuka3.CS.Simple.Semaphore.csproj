@@ -3,11 +3,17 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <Description>Semaphore library.</Description>
     <Copyright>https://github.com/muhammet-kandemir-95</Copyright>
     <PackageProjectUrl>https://github.com/muhammet-kandemir-95/dmuka3.CS.Simple.Semaphore</PackageProjectUrl>
     <RepositoryUrl>https://github.com/muhammet-kandemir-95/dmuka3.CS.Simple.Semaphore</RepositoryUrl>
     <PackageTags>c#, core, simple, semaphore</PackageTags>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>C:\Users\k8a1n\mpf\projects\github\dmuka3.CS.Simple.Semaphore\dmuka3.CS.Simple.Semaphore\dmuka3.CS.Simple.Semaphore.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>
