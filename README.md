@@ -1,6 +1,4 @@
-# dmuka.Semaphore
-
-Demo : [Download Project](https://github.com/muhammet-kandemir-95/dmuka.Semaphore/archive/master.zip)
+# dmuka3.CS.Simple.Semaphore
 
  You can manage multiple "Thread" on application server using this library. So the "Thread Count" on server is always fix.
 
@@ -50,7 +48,7 @@ public void Dispose()
 using System;
 using System.Threading;
 
-namespace dmuka.Semaphore.TestsConsoleApp
+namespace dmuka3.CS.Simple.Semaphore.TestsConsoleApp
 {
     class Program
     {
@@ -86,9 +84,7 @@ namespace dmuka.Semaphore.TestsConsoleApp
             }).Start();
 
             while (true)
-            {
                 Thread.Sleep(1);
-            }
         }
     }
 }
