@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Semaphore library.</Description>
+    <Copyright>https://github.com/muhammet-kandemir-95</Copyright>
+    <PackageProjectUrl>https://github.com/muhammet-kandemir-95/dmuka3.CS.Simple.Semaphore</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/muhammet-kandemir-95/dmuka3.CS.Simple.Semaphore</RepositoryUrl>
+    <PackageTags>c#, core, simple, semaphore</PackageTags>
+  </PropertyGroup>
+
+</Project>
