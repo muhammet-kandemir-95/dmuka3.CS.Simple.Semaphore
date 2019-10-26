@@ -55,7 +55,7 @@ namespace dmuka3.CS.Simple.Semaphore.TestsConsoleApp
         static void Main(string[] args)
         {
             Console.WriteLine("===== Muhammet Kandemir ======");
-            Console.WriteLine("Welcome dmuka.Semaphore Tests!");
+            Console.WriteLine("Welcome dmuka3.CS.Simple.Semaphore Tests!");
 
             // Create instance new semphore
             // This instance will have 4 core(Thread)
