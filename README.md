@@ -2,6 +2,13 @@
 
  You can manage multiple "Thread" on application server using this library. So the "Thread Count" on server is always fix.
 
+ ## Nuget
+ 
+ **Link** : https://www.nuget.org/packages/dmuka3.CS.Simple.Semaphore
+ ```nuget
+ Install-Package dmuka3.CS.Simple.Semaphore
+```
+
 ## Public Variables
 
 ### CoreCount
